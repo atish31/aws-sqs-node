@@ -1,0 +1,26 @@
+{
+  "name": "aws-sqs-node",
+  "version": "1.0.0",
+  "description": "A node js repo with aws sqs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "service1": "node app/service1.js",
+    "service2": "node app/service1.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atish31/aws-sqs-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atish31/aws-sqs-node/issues"
+  },
+  "homepage": "https://github.com/atish31/aws-sqs-node#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
